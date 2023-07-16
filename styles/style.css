@@ -69,14 +69,44 @@ nav-title {
 .btn-primary {
     border-radius: 8px;
     background: #FF900E;
-    width: 180px;
-    height: 64px;
+    /* width: 180px;
+    height: 64px; */
+    /* padding is enough, no need to set the height, width for button. */
     border: 0;
+    padding: 20px 25px;
 
 /* btn-text */
     color: #FFF;
-    text-align: center;
     font-size: 1.18rem;
-    font-style: normal;
     font-weight: 600;
+    cursor: pointer;
+}
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* responsive */
+/* small device */
+@media screen  and (max-width: 576px) {
+    header {
+        padding: 20px 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+/* medium device */
+@media screen and (min-width:576px) and (max-width:960px) {
+    header {
+        padding: 20px 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
 }
