@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    color: var(--dark-02, #424242);
+    text-align: center;
+
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-weight: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--dark-02, #424242)
+}
+
+nav-title {
+    color: var(--dark-01, #131313);
+    /* text-align: center; */
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.banner-content {
+    max-width: 862px;
+    /* width: 100%; */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    color: var(--dark-01, #131313);
+    /* text-align: center; unnecesary, as it is already mentioned in the parent div */
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-text {
+    color: var(--dark-03, #727272);
+    /* text-align: center; unnecesary, as it is already mentioned in the parent div */
+    /* font-size: 1rem; */
+    font-weight: 400;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+    border: 0;
+
+/* btn-text */
+    color: #FFF;
+    text-align: center;
+    font-size: 1.18rem;
+    font-style: normal;
+    font-weight: 600;
+}
